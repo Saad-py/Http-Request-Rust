@@ -1,0 +1,16 @@
+[package]
+name = "hyper_solution"
+version = "0.1.0"
+authors = ["Saad-py <saadyarkhan11@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = {version = "0.14.5",features = ["full"]}
+hyper-tls = "*"
+serde = "*"
+url = "2.2.1"
+tokio = { version = "1", features = ["full"] }
+serde_json = "*"
+futures = "0.1"
